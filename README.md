@@ -12,9 +12,9 @@ I am looking for a **junior Python, backend or application-support role**, on-si
 
 | Repository | What it is |
 |---|---|
-| **[smoth-terminal](https://github.com/Glease1/smoth-terminal)** | A local-first terminal for crypto derivatives: 46 FastAPI/SQLite service modules, 17 views, a research harness with pre-registration and a rejection archive. No execution path, enforced in code. |
-| **[brandfinder-case-study](https://github.com/Glease1/brandfinder-case-study)** | The engineering story of a small real-money execution system: ownership, pending exits, valuation tiers, exit attribution, and the measurement that says the strategy has no edge. The source is private; this is the part worth reading. |
-| **[odjob-launcher](https://github.com/Glease1/odjob-launcher)** | A C#/.NET WPF launcher and session coordinator for three Bond game ports: disc/ROM validation, process supervision, a TCP room protocol and IPv4 join codes. |
+| **[Smoth Labs Terminal](https://github.com/Glease1/smoth-labs-terminal)** | A local-first terminal for crypto derivatives: 46 FastAPI/SQLite service modules, 17 views, a research harness with pre-registration and a rejection archive. No execution path, enforced in code. |
+| **[Brand Finder Case Study](https://github.com/Glease1/brandfinder-case-study)** | The engineering story of a small real-money execution system: ownership, pending exits, valuation tiers, exit attribution, and the measurement that says the strategy has no edge. The source is private; this is the part worth reading. |
+| **[Odjob Launcher](https://github.com/Glease1/odjob-launcher)** | A C#/.NET WPF launcher and session coordinator for three Bond game ports: disc/ROM validation, process supervision, a TCP room protocol and IPv4 join codes. |
 
 ---
 
