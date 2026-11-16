@@ -42,7 +42,7 @@ Also: Microsoft Entra ID, Entra PIM, Duo MFA and audit-trail work from my day jo
 - Every repository here states its limitations, including the ones I have not fixed.
 - Open to junior developer and application-support roles.
 
-**Contact:** [ryangleas1@protonmail.com](mailto:ryangleas1@protonmail.com) — CV available on request.
+**Contact:** [ryanglease1@protonmail.com](mailto:ryanglease1@protonmail.com) — CV available on request.
 
 ---
 
