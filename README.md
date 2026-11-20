@@ -10,6 +10,14 @@ If you only click one, make it **Brand Finder**. It is the most complete example
 
 ## Projects
 
+### [Brand Finder Case Study](https://github.com/Glease1/brandfinder-case-study)
+
+A Solana memecoin system built around execution control, not a trading signal. It watches nine live data sources, runs each candidate through fail-closed safety gates, and records every rejection with the reason it failed.
+
+The engineering focus is the separation of decisions and execution: a paper arena records what a rule would have done, a shadow ledger checks whether a real quote was available, and a small 0.01 SOL canary tests the real execution path under a fixed stake. Several strategy variants are scored side by side, and the result is not a win: 171 closed rows, a profit factor of 1.22, the top three trades making 154% of the profit, and no edge once those are removed.
+
+If you read one section, read the [failure taxonomy](https://github.com/Glease1/brandfinder-case-study/blob/main/docs/FAILURE-TAXONOMY.md). The [evidence](https://github.com/Glease1/brandfinder-case-study/blob/main/EVIDENCE.md) explains what was tested and what was not.
+
 ### [Smoth Labs Terminal](https://github.com/Glease1/smoth-labs-terminal)
 
 A crypto derivatives terminal that pulls data from Binance, Bybit, Hyperliquid, Kraken and Deribit into SQLite, scores the market and puts 17 views on one screen.
@@ -17,14 +25,6 @@ A crypto derivatives terminal that pulls data from Binance, Bybit, Hyperliquid, 
 There is no order endpoint and no key custody. The execution guard is enforced in code and covered by tests. The research side keeps the ideas that didn't work as well as the ones that did.
 
 Start with the [architecture](https://github.com/Glease1/smoth-labs-terminal/blob/main/docs/ARCHITECTURE.md), then the [research results](https://github.com/Glease1/smoth-labs-terminal/blob/main/docs/RESEARCH.md).
-
-### [Brand Finder Case Study](https://github.com/Glease1/brandfinder-case-study)
-
-A Solana memecoin system built around execution control, not a trading signal. It watches nine live data sources, runs each candidate through fail-closed safety gates, and records every rejection with the reason it failed.
-
-The part I find most useful is how the decisions are separated: a paper arena asks what a rule would have done, a shadow ledger checks whether a real quote actually existed, and a 0.01 SOL canary proves the real execution path works. Several strategy variants are scored side by side, and the result is not a win: 171 closed rows, a profit factor of 1.22, the top three trades making 154% of the profit, and no edge once those are removed.
-
-If you read one section, read the [failure taxonomy](https://github.com/Glease1/brandfinder-case-study/blob/main/docs/FAILURE-TAXONOMY.md). The [evidence](https://github.com/Glease1/brandfinder-case-study/blob/main/EVIDENCE.md) explains what was tested and what was not.
 
 ### [Odjob Launcher](https://github.com/Glease1/odjob-launcher)
 
@@ -62,7 +62,7 @@ I also use Microsoft Entra ID, Entra PIM, Duo MFA and audit trails in my day job
 
 ## Currently
 
-I'm finishing the public write-up for Smoth: architecture, research results and a walkthrough of the main views. Every repo here is meant to say what it does and what it still doesn't do.
+The Smoth architecture, research results and view walkthrough are published. I'm continuing to improve the terminal and the data behind it. Every repo here is meant to say what it does and what it still doesn't do.
 
 **Contact:** [ryanglease1@protonmail.com](mailto:ryanglease1@protonmail.com). CV available on request.
 
